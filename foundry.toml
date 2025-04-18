@@ -6,7 +6,7 @@ remappings = ["@openzeppelin/contracts=lib/openzeppelin-contracts/contracts"]
 somnia = "https://vsf-rpc.somnia.network/"
 private_key = "${PRIVATE_KEY}"
 fs_permissions = [
-    { access = "read", path = "./images/" },
+    { access = "read", path = "./Img/" },
     { access = "read", path = "./broadcast" },
 ]
 ffi = true

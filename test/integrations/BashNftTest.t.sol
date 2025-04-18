@@ -2,8 +2,8 @@
 
 pragma solidity ^0.8.24;
 import {Test} from "forge-std/Test.sol";
-import {DeployBashNft} from "../script/DeployBashNft.s.sol";
-import {BashNft} from "../src/BashNft.sol";
+import {DeployBashNft} from "../../script/DeployBashNft.s.sol";
+import {BashNft} from "../../src/BashNft.sol";
 
 contract BashNftTest is Test {
     BashNft public bashNft;
