@@ -25,7 +25,7 @@ contract BashNftTest is Test {
                 keccak256(abi.encodePacked(actualName))
         );
     }
-    function testCanMintAnsHaveABalance() public {
+    function testCanMintAndHaveABalance() public {
         vm.prank(USER);
         bashNft.mintNft(PUG);
         assert(bashNft.balanceOf(USER) == 1);
